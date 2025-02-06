@@ -13,7 +13,6 @@ def index():
 @app.route('/search')
 def search():
     query = request.args.get('query', '')
-
     return render_template('search_results.html', query=query)
 
 # Additional Pages Routes
@@ -70,4 +69,4 @@ def open_megenrate_console():
 
 # Run the App
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
