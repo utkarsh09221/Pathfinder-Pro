@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pathfinder-Pro
 
 ## Deployment Instructions
@@ -34,3 +35,6 @@ The application includes routes to open console applications (`autogenrate.py` a
 
 ### Additional Information
 Refer to the documentation for more details on the application features and usage.
+=======
+# Pathfinder-Pro
+>>>>>>> 1dc9dd944ea6bb113f2d8a9fbd028ee71248cfaa
