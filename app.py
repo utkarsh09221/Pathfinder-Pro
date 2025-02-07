@@ -66,6 +66,10 @@ def open_megenrate_console():
     else:
         subprocess.Popen(["gnome-terminal", "--", "python3", "megenrate.py"])
     return redirect(url_for('visiual'))
+   
+@app.route('/open_autogenrate_console')
+def open_autogenrate_console():
+    return "Console auto-generation feature is not active."
 
 # Run the App
 if __name__ == '__main__':
