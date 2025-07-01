@@ -1,40 +1,20 @@
-<<<<<<< HEAD
-# Pathfinder-Pro
+🔍 Pathfinder Visualizer (BFS, DFS, DLS) – Flask Web App
+This project is a Flask-based web visualizer for graph pathfinding algorithms like BFS, DFS, and DLS. It includes two modes:
 
-## Deployment Instructions
+✅ Auto-Generate Graph — Randomly generate graph & visualize search
 
-This project is a Flask web application that can be deployed using the following steps:
+✅ Manual-Generate Graph — Let users build the graph manually (via Tkinter/other)
 
-### Prerequisites
-- Python 3.x installed on your machine.
-- Flask installed (included in `requirements.txt`).
+🌐 Features
+📊 Visualizes BFS, DFS, and DLS step-by-step
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd Pathfinder-Pro
-   ```
+🎨 Beautiful front-end using HTML, CSS, and Bootstrap
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+🔄 Dynamic interaction with Python backend
 
-### Running the Application
-To run the application locally, use the following command:
-```bash
-python app.py
-```
+⚙️ Integration with autogenrate.py logic to show nodes, steps, and paths
 
-### Deployment
-For production deployment, consider using a WSGI server like Gunicorn or uWSGI. Ensure to set `debug=False` in `app.py` for production readiness.
+📁 Organized Flask project structure
 
-### Console Functionality
-The application includes routes to open console applications (`autogenrate.py` and `megenrate.py`). These can be accessed through the web interface.
+✅ Future support for manual graph drawing via megenrate.py
 
-### Additional Information
-Refer to the documentation for more details on the application features and usage.
-=======
-# Pathfinder-Pro
->>>>>>> 1dc9dd944ea6bb113f2d8a9fbd028ee71248cfaa
